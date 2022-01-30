@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List example</title>
+</head>
+<body>
+  <p>Colors in list:</p>
+  <ul>
+    {{#colors}}
+    <li>{{.}}</li>
+    {{/colors}}
+  </ul>
+  <p>Colors in table:</p>
+  <table>
+    {{#colors}}
+    <tr>
+      <td>{{-index}}</td>
+      <td>{{.}}</td>
+    </tr>
+    {{/colors}}
+  </table>
+</body>
+</html>
