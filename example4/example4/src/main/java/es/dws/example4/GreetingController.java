@@ -13,6 +13,4 @@ public class GreetingController {
 
         return "greeting_template";
     }
-
-
 }

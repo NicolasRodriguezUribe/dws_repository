@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tablón de anuncia</title>
+</head>
+<body>
+    <h1>Tablón Anuncios</h1>
+    {{#anuncios}}
+    <a href="anuncio/{{-index}}">{{nombre}} {{asunto}}</a><br>
+    {{/anuncios}}
+
+    <br>
+    <a href="nuevoAnuncio.html">Nuevo anuncio</a>
+</body>
+</html>
