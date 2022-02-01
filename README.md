@@ -1,3 +1,3 @@
 # dws_repository
-Repositorio de DWS
-Examples and exercises
+Repositorio de DWS<br>
+Examples and exercises<br>
