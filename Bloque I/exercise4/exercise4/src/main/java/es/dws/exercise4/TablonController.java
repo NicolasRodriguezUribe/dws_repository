@@ -15,8 +15,8 @@ public class TablonController {
     private List<Anuncio> anuncios = new ArrayList<>();
 
     public TablonController() {
-        anuncios.add(new Anuncio("Pepe", "Hola caracola", "XXXX"));
-        anuncios.add(new Anuncio("Juan", "Hola caracola", "XXXX"));
+        anuncios.add(new Anuncio("Pepe", "asunto1", "XXXX"));
+        anuncios.add(new Anuncio("Juan", "soy Batman", "XXXX"));
     }
 
     @GetMapping("/")
