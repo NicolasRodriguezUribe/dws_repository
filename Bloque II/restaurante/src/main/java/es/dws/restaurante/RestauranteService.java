@@ -7,9 +7,4 @@ import org.springframework.stereotype.Service;
 public class RestauranteService {
     @Autowired
     RestauranteRepository restauranteRepository;
-
-    public void addRestaurante(Restaurante restaurante){
-        restauranteRepository.save(restaurante);
-    }
-
 }
