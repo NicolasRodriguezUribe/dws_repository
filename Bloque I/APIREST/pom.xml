@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>es.dws</groupId>
-	<artifactId>APIREST</artifactId>
+	<artifactId>AnuncioService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>APIREST</name>
+	<name>AnuncioService</name>
 	<description>API REST - Anuncios</description>
 	<properties>
 		<java.version>17</java.version>
