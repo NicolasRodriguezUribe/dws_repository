@@ -6,12 +6,10 @@ public class Anuncio {
     private String asunto;
     private String comentario;
 
-    public Anuncio() {
-
-    }
+    //public Anuncio() {    }
 
     public Anuncio(String nombre, String asunto, String comentario) {
-        super();
+        //super();
         this.nombre = nombre;
         this.asunto = asunto;
         this.comentario = comentario;
